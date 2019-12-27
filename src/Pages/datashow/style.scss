@@ -1,0 +1,32 @@
+#users {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border: 1px solid #000;
+  width: 100%;
+
+  tr:nth-child(even) { 
+    background-color: #f2f2f2; 
+  }
+}
+
+#users {
+  th {
+    padding: 12px 0;
+    border: 1px solid #fff;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+  } 
+   
+  td {
+    padding: 10px;
+    border: 1px solid #fff;
+  }
+   
+  input {
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+  }
+}
