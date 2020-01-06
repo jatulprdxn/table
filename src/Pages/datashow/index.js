@@ -62,9 +62,19 @@ if(sortby !== 'id') {
 }
 else {
   console.log("else",sortby);
+  console.log("else",props.users);
   temp1 =  props.users.sort((a,b) => {
     return a[sortby]-b[sortby];
   });
+//   props.users.forEach(item => temp.push(item[sortby]))
+//   temp.sort();
+//   temp.forEach(name => {
+//   props.users.forEach(item => {
+//     if(name===item[sortby]) {
+//       temp1.push(item);
+//     }
+//   })
+// }) 
 }
 props.updateDetail(temp1);
 }
